@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 20, 2017, 2:57:38 PM
+    Author     : christiealtadonna
+*/
+
+
+body{
+    background-image: url('background.png.jpeg');
+    
+}
+/*
+#leaderboard tbody{
+    overflow-y: scroll;
+    height: 200px;
+    position: absolute;
+}*/
+
+#grid{
+/*    overflow-x: scroll;
+    overflow-y: scroll;*/
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+/*    margin-left: 10px;*/
+/*    float: left;
+    margin-bottom: 20px;*/
+    
+}
+
+
+#grid thead{
+    display: table;
+    width: 100%;
+}
+
+#grid tbody{
+/*    display: block;*/
+/*    overflow-x: scroll;
+    overflow-y: scroll;*/
+    display: block;
+    height: 100px;
+    table-layout: fixed;
+ 
+}
+
+#gridDiv {
+    height: 600px;
+    overflow: auto;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin-left: 10px;
+    float: left;
+    width: 50%;
+    padding: 5px;
+    
+}
+
+#title{
+    margin-left: 10%;
+    font-family:monospace;
+    font-size: 50px;
+}
+
+
+#registerInput{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+ 
+
+thead{
+    font-weight: bold;
+}
+
+#leaderboard{
+    background-color: white;
+    border: solid;
+    border: black;
+    float: right;
+    width: 40%;
+    margin-right: 10px;
+ 
+}
+
+#leaderboard thead{
+/*    position: relative;
+*/    
+/*    table-layout: fixed;*/
+    display: table;
+    width: 100%;
+
+}
+
+#leaderboard tbody{
+/*    background-color: white;*/
+/*    overflow-y: scroll;*/
+    display: block;
+    
+    overflow-y: scroll;
+    height: 600px;
+ 
+/*  table-layout: fixed;*/
+ 
+}
+
+
+.basic_color{
+    background-color: white; 
+}
+
+.clicked_class{
+    background-color: black; 
+    color: white;
+}
